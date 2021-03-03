@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+#NavCss {
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+  padding: 30px;
+}
+#NavCss a {
+  color: greenyellow;
+}
+
+.beerList img {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+}
+
+.gridBeer {
+  display: flex;
+  flex-wrap: wrap;
+}
